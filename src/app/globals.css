@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background-color: #fafafa;
+  color: #171717;
+}
+
+.btn-primary {
+  @apply bg-evident-800 text-white px-6 py-3 rounded-lg font-medium hover:bg-evident-700 transition-colors;
+}
+
+.btn-secondary {
+  @apply text-evident-600 hover:text-evident-800 transition-colors;
+}
+
+.input-field {
+  @apply w-full px-4 py-3 border border-evident-200 rounded-lg focus:outline-none focus:border-evident-400 transition-colors;
+}
+
+.card {
+  @apply bg-white rounded-lg border border-evident-200 p-4;
+}
+
+.activity-pill {
+  @apply inline-block bg-evident-100 text-evident-600 text-xs px-2 py-1 rounded;
+}
